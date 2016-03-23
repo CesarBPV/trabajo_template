@@ -12,20 +12,19 @@ and open the template in the editor.
     padding: 0 auto;
 }
 body{
-    background: #212121;
+    background: #212121 url(../img/resize-img.jpe);
     font-size: 2em;
 }
 header{
-    background: steelblue url(../img/globalbusiness.jpg);
+    background: steelblue url(../img/Zapatilla-Nike-929.jpg);
     color:#fff;
-    min-height: 300px;
+    min-height: 400px;
     text-align: center;
-    position: static;
     width: 100%;
     margin-top: 0;
 }
 h1{
-    line-height: 250px;
+    line-height: 350px;
 }
 section#contenedor{
     margin:0.5em auto;
@@ -34,14 +33,14 @@ section#contenedor{
     position:relative
 }
 aside,section#principal{
-    background: steelblue;
+    background-color: #212121;
     border-radius: 0.5em;
     color:#fff;
     max-width: 95%;
     margin: 0.5em auto;
     text-align: center;
 }
-nav ul li{
+nav ul li {
     display: inline-block;
     vertical-align: top;
 }
@@ -53,14 +52,22 @@ nav{
     position:absolute;
     padding: 0 1em;
     right:30%;
+    
 }
 a{
     color:white;
+    text-decoration: none;
+}
+nav ul a:hover{
+    background: #fff;
+    box-shadow: 1px -1px 0px #999;
+    border-radius: 0.5em;
+    color:#212121;
 }
 section#principal,aside{
     display:inline-block;
-    max-width: 960px;
-    min-height: 400px;
+    max-width: 910px;
+    min-height: 500px;
     padding: 0.25em;
     vertical-align: top;
     width: 65%;
@@ -69,11 +76,13 @@ aside{
     width:30%;
 }
 article{
-    background: cadetblue;
+    background: #212121;
     border-radius: 0.5em;
-    max-width: 95%;
+    display: inline-block;
+    width: 290px;
+    min-height: 280px;
     padding:0.25em;
-    min-height: 250px;
+    vertical-align: top;
 }
 #post1,#post2,#post3,#post4{
     background:#212121;
@@ -82,11 +91,13 @@ article{
     max-height:250px;
     max-width: 250px;
 }
+
 img{
     max-height: 80%;
     max-width: 80%;
     margin:0.25em 0.25em;
     margin-bottom:0;
+    border-radius: 0.5em;
 }
 footer{
     color: #fff;
